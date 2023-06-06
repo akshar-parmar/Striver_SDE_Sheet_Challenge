@@ -39,7 +39,6 @@ int main(){
 	//take necessary input's
 	int numRows = 5;
 	vector<vector<int>>result = generate(numRows);
-
 	cout<<"Output : "<<endl;
 	for (const auto& row : result) {
         for (int value : row) {
